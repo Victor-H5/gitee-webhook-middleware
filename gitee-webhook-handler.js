@@ -39,9 +39,9 @@ function create (options) {
       callback(err)
     }
 
-    var agent   = req.headers['User-Agent']
-      , token = req.headers['X-Gitee-Token']
-      , event    = req.headers['X-Gitee-Event']
+    var agent   = req.headers['user-agent']
+      , token = req.headers['x-gitee-token']
+      , event    = req.headers['x-gitee-event']
 
     if (agent !== 'git-oschina-hook')
       return hasError('Invalid User-Agent')
