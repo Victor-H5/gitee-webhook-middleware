@@ -1,4 +1,4 @@
-# gitee-webhook-handler
+# gitee-webhook-middleware
 
 Coding allows you to register **[Webhooks](https://gitee.com/help/categories/40)** for your repositories. Each time an event occurs on your repository, whether it be pushing code, filling issues or creating pull requests, the webhook address you register can be configured to be pinged with details.
 
@@ -6,13 +6,13 @@ This library is a fork of [github-webhook-handler](https://github.com/rvagg/gith
 
 ## Install
 
-`npm install gitee-webhook-handler`
+`npm install gitee-webhook-middleware`
 
 ## Example
 
 ```js
 var http = require('http')
-var createHandler = require('coding-webhook-handler')
+var createHandler = require('coding-webhook-middleware')
 var handler = createHandler({
   path: '/',
   token: 'mytoken' // maybe there is no token
