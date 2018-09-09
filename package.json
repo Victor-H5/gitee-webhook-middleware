@@ -1,0 +1,25 @@
+{
+  "name": "gitee-webhook-handler",
+  "version": "1.0.0",
+  "description": "Web handler / middleware for processing Gitee Webhooks",
+  "main": "gitee-webhook-handler.js",
+  "types": "gitee-webhook-handler.d.ts",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "gitee",
+    "webhooks"
+  ],
+  "author": "Victor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Victor-H5/gitee-webhook-handler.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bl": "~1.1.2"
+  },
+  "devDependencies": {
+  }
+}
