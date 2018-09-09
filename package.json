@@ -1,9 +1,8 @@
 {
-  "name": "gitee-webhook-handler",
+  "name": "gitee-webhook-middleware",
   "version": "1.0.0",
   "description": "Web handler / middleware for processing Gitee Webhooks",
   "main": "gitee-webhook-handler.js",
-  "types": "gitee-webhook-handler.d.ts",
   "scripts": {
     "test": "node test.js"
   },
