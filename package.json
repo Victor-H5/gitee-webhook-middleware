@@ -1,6 +1,6 @@
 {
   "name": "gitee-webhook-middleware",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Web handler / middleware for processing Gitee Webhooks",
   "main": "gitee-webhook-handler.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "author": "Victor",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Victor-H5/gitee-webhook-handler.git"
+    "url": "https://github.com/Victor-H5/gitee-webhook-middleware.git"
   },
   "license": "MIT",
   "dependencies": {
