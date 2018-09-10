@@ -12,7 +12,7 @@ This library is a fork of [github-webhook-handler](https://github.com/rvagg/gith
 
 ```js
 var http = require('http')
-var createHandler = require('coding-webhook-middleware')
+var createHandler = require('gitee-webhook-middleware')
 var handler = createHandler({
   path: '/',
   token: 'mytoken' // maybe there is no token
