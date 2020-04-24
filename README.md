@@ -37,7 +37,7 @@ handler.on('*', function(event) {
   console.log(event.url)
 })
 
-handler.on('push', function(event) {
+handler.on('Push Hook', function(event) {
   console.log(event)
 })
 
